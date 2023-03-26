@@ -1,0 +1,12 @@
+<form (ngSubmit)="mandarInformacion()" class="container mt-4">
+      <div class="form-group row">
+        <h2>Escriba el nombre del personaje a buscar</h2>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" [(ngModel)]="nombrePersonaje" name="nombre">
+            <label for="floatingInput">Personaje los Simpsons</label>
+        </div>
+      </div>
+      <div class="d-grid gap-2">
+        <button class="btn btn-lg btn-primary" type="submit">Buscar Personaje</button>
+      </div>
+</form>

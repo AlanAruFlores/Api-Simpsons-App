@@ -1,0 +1,10 @@
+form h2{
+    color:yellow;
+    font-size: 3rem;
+}
+form{
+    padding:20px;
+    background-color:#013b3c;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+}

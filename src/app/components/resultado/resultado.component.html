@@ -1,0 +1,16 @@
+<div class="container mt-4 d-flex justify-content-center">
+    <div class="card mb-3" *ngFor="let personaje of resultadosLista ">
+        <h3 class="card-header">{{personaje.character}}</h3>
+        <img [src]="personaje.image" alt="imagen" height="280" width="280">
+        <div class="card-body">
+          <p class="card-text">{{personaje.quote}}</p>
+        </div>
+        <div class="card-footer text-muted">
+            Character
+        </div>
+      </div>
+      <div *ngIf="resultadosLista.length == 0">
+        <h2>No hay Resultados</h2>
+      </div>
+</div>
+
